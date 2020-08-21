@@ -35,6 +35,22 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"
         android:layout_marginTop="50dp"
-        android:onClick="sendSMS"
         android:text="@string/send" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="300dp"
+        android:onClick="readSMS"
+        android:text="@string/readsms" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="375dp"
+        android:text="@string/textview" />
 </RelativeLayout>
